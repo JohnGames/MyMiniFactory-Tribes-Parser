@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "LTwAm58Ngyg=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\John\\RiderProjects\\ParserForTribesData\\ParserForTribesData\\ParserForTribesData.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\John\\.nuget\\packages\\csvhelper\\33.0.1\\csvhelper.33.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
