@@ -39,14 +39,11 @@ using (var csv = new CsvReader(reader, new CsvConfiguration(culture) { HeaderVal
 // Detect likely annual price by a simple min/max lookup
 // This can be tricked if you duplicated tier names to later adjust pricing
 var tierPriceMin = new Dictionary<string, decimal>();
-var tierPriceMax = new Dictionary<string, decimal>();
 
 foreach (var r in records)
 {
     if (!tierPriceMin.ContainsKey(r.Tier) || r.Price < tierPriceMin[r.Tier])
         tierPriceMin[r.Tier] = r.Price;
-    if (!tierPriceMax.ContainsKey(r.Tier) || r.Price > tierPriceMax[r.Tier])
-        tierPriceMax[r.Tier] = r.Price;
 }
 
 
