@@ -1,0 +1,1 @@
+This is designed for creators on my mini factory that need better analytics from tribe data. This parses the CSV output on earnings page to give you trends of your tribers, accounting for annual tiers.
